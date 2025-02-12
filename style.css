@@ -1,0 +1,112 @@
+.login {
+    border: solid 2px color green;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 15px;
+    transition: 0, 3s linear;
+}
+
+.login:hover {
+    background-color: lightseagreen;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.offcanvas-body {
+    margin: 8px;
+    /* color: #fff; */
+
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    /* background-color: #fff; */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: green;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.4s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link::before {
+
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: green;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+.me-auto {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    transition: 0.3s color;
+    font-size: 25px;
+    /* background-color: #c90a0a; */
+}
+/* .offcanvas-body.navbar-nav .nav-item.nav-link mx-lg-2 active {
+    color: #fff;
+} */
+.navbar{
+    /* background-color: #fff;
+    height: 80px; */
+    color: #fff;
+    background-color: #fff;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+/* .container{
+    background-color: #0b6fbc;
+} */
+ body{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+ }
