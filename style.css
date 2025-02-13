@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    
+
 }
 
 
@@ -93,6 +93,7 @@ body {
     width: 100%;
     visibility: visible;
 }
+
 .me-auto {
     color: rgb(255, 0, 0);
     font-weight: 700;
@@ -104,34 +105,36 @@ body {
 /* .navbar{
     /* background-color: #fff;
     height: 80px; */
-    /* color: #fff;
+/* color: #fff;
     background-color: #fff;
     height: 80px;
     border-radius: 20px;
     border: 5px solid rgb(216, 23, 23);
     margin-top: 10px;
-} */ */
-
-.am{
-justify-content: center; align-items: center;
+} */
+*/ .am {
+    justify-content: center;
+    align-items: center;
 }
-.hero .am{
+
+.hero .am {
     position: relative;
 }
-.hero h1{
+
+.hero h1 {
     margin-top: 90px;
 }
 
-.home{
+.home {
     margin-top: 100px;
     background-color: bisque;
     width: 100%;
     height: 100vh;
-    
+
 }
 
 
-.header-right img{
+.header-right img {
     width: 570px;
     height: 500px;
     margin-top: 200px;
@@ -139,30 +142,36 @@ justify-content: center; align-items: center;
     border: 2px solid;
     border-bottom-left-radius: 30px;
 }
-.container{
+
+.container {
     display: flex;
 }
-.header-left{
+
+.header-left {
     margin-top: 200px;
     font-weight: 700;
     font-size: 55px;
     line-height: 1.3;
     margin-bottom: 25px;
-    
+
 }
-.header-left h1{
+
+.header-left h1 {
     font-weight: 700;
     font-size: 55px;
     line-height: 1.3;
     margin-bottom: 25px;
 }
-.navbar{
-    background-color:bisque;
-}
-header{
+
+.navbar {
     background-color: bisque;
 }
-.header-left a{
+
+header {
+    background-color: bisque;
+}
+
+.header-left a {
     width: 30px;
     height: 10px;
     border: solid 1px indianred;
@@ -175,17 +184,20 @@ header{
     transition: 0.4s linear;
 
 }
-.header-left a:hover{
-    background-color:  #0a2233;
+
+.header-left a:hover {
+    background-color: #0a2233;
     box-shadow: 2px 1px;
     color: #fff;
 }
-main{
+
+main {
     background-color: #fff;
     width: 100%;
     height: 55vh;
 }
-.text{
+
+.text {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
@@ -194,7 +206,8 @@ main{
     color: #0a2233;
     padding-top: 100px;
 }
-.ha{
+
+.ha {
     padding-top: 10px;
     /* font-size: 18px; */
     font-weight: 600;
@@ -202,13 +215,15 @@ main{
     color: #0a2233;
     text-align: center;
 }
-.h{
+
+.h {
     text-align: center;
     font-size: 15px;
     padding-top: 5px;
     line-height: 1.9;
 }
-.header-left img{
+
+.header-left img {
     width: 500px;
     height: 500px;
     margin-top: -150px;
@@ -216,12 +231,14 @@ main{
     border: 2px solid;
     border-bottom-left-radius: 30px;
 }
-.aman{
+
+.aman {
     width: 100%;
     height: 100vh;
     background-color: #fff;
 }
-.rr{
+
+.rr {
     margin-bottom: 2px;
     margin-left: 100px;
     /* margin-right: 1px; */
@@ -230,8 +247,9 @@ main{
     padding-right: 10px;
     padding-top: 45px;
 }
-h4{
-    
+
+h4 {
+
     margin-bottom: 2px;
     margin-left: 60px;
     /* margin-right: 1px; */
@@ -240,14 +258,18 @@ h4{
     padding-right: 10px;
     padding-top: 15px;
 }
-.ss{    margin-top: -55px;
+
+.ss {
+    margin-top: -55px;
     margin-left: 313px;
 }
-.nn{
+
+.nn {
     margin-top: -55px;
     margin-left: 318px;
 }
-  .header-right a{  
+
+.header-right a {
     width: 30px;
     height: 10px;
     border: solid 1px indianred;
@@ -262,9 +284,10 @@ h4{
     padding-bottom: 10px;
     margin-top: 50px;
     margin-left: 30px;
-  }
-  .new{
-    
+}
+
+.new {
+
     margin-bottom: 2px;
     margin-left: 60px;
     /* margin-right: 1px; */
@@ -272,41 +295,47 @@ h4{
     padding-bottom: 30px;
     padding-right: 10px;
     padding-top: 15px;
-    
-  }
-  .header-right a:hover{
+
+}
+
+.header-right a:hover {
     background-color: rgb(239, 239, 167);
     box-shadow: 2px 1px;
     color: black;
-  }
-  menu{
+}
+
+menu {
     background-color: #fff;
     width: 100%;
     height: 40vh;
-  }
+}
 
-section{
+section {
     width: 100%;
     height: 100%;
     background-color: #eccccc;
 }
-section h1{
+
+section h1 {
     text-align: center;
-  
+
     font-weight: bold;
 }
-section h5{
+
+section h5 {
     text-align: center;
-  
+
     font-weight: bold;
     padding-top: 20px;
 }
-.headertext h6{
+
+.headertext h6 {
     padding-top: 5px;
     padding-bottom: 5px;
-    
+
 }
-.newim img{
+
+.newim img {
     width: 730px;
     height: 360px;
     margin-top: 15px;
@@ -314,24 +343,28 @@ section h5{
     border: 2px solid;
     border-bottom-left-radius: 30px;
 }
-.full{
+
+.full {
     width: 100%;
     height: 100vh;
     background-color: #fff;
 }
-.para h1{
+
+.para h1 {
     font-weight: 800;
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
     margin-top: 80px;
 }
-.para h6{
+
+.para h6 {
     text-align: center;
     font-weight: 300;
 
 }
-.card .card-item{
+
+.card .card-item {
     color: #fff;
     width: 400px;
     padding: 35px;
@@ -340,11 +373,12 @@ section h5{
     justify-content: center;
     border-radius: 8px;
     border: 1px solid indianred;
-    background-color: rgb(255, 255, 255,0.2);
+    background-color: rgb(255, 255, 255, 0.2);
     flex-direction: column;
     backdrop-filter: blur(30px);
 }
-.card .card-item .img{
+
+.card .card-item .img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -353,12 +387,18 @@ section h5{
     padding: 4px;
 
 }
-.card .card-item .pro{
+
+.card .card-item .pro {
     font-size: 1.15rem;
     color: #0b0404;
     font-weight: 500;
     margin: 14px 0 40px;
 }
-.name{
+
+.name {
     color: #0a2233;
+}
+
+.box .slidder {
+    display: flex;
 }
