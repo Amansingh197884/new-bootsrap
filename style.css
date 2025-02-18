@@ -15,6 +15,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
+    
 
 }
 .header-right ul {
@@ -167,6 +168,7 @@ body {
     /* border: 2px solid; */
     border-bottom-left-radius: 30px;
     box-shadow: 2px 0px 8px;
+    overflow: hidden;
 }
 
 .container {
