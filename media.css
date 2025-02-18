@@ -1,0 +1,29 @@
+
+@media only screen and (max-width: 992px) {
+    .header-left h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .header-left h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .offcanvas offcanvas-end {
+        display: -ms-flexbox !important;
+        display: flex !important;
+
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .navbar-toggler{
+        justify-content: center; align-items: center;
+        margin-right: 894px;
+    }
+    
+}
